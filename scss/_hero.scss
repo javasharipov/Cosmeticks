@@ -1,0 +1,228 @@
+.hero{
+    background-color: #f9f8f5;
+    width: 100%;
+
+}
+.hero__wrapper{
+    display: flex;
+    .hero__content{
+        width: 50%;
+    }
+    .hero__image{
+        width: 40%;
+    }
+   display: flex;
+  .hero__content{
+    h2{
+        margin-top: 80px;
+        font-size: 56px;
+        font-weight: 500;
+        line-height: 70px   ;
+    }
+    p{
+        color: #555555;
+        font-size: 20px;
+        line-height: 32px;
+        margin: 30px 0;
+    }
+    .input__btn{
+        width: 326px;
+        position: relative;
+        input{
+         width: 326px;
+         height: 40px;
+         border: 1px solid transparent;
+         padding: 0 20px;
+         font-size: 18px;
+        }
+        button{
+            position: absolute;
+            z-index: 101;
+            right: -30px;
+            bottom: 7px;
+            background-color: #402f2c;
+            padding: 2px 4px;
+            cursor: pointer;
+
+        }
+    }
+    button{
+        margin-top: 60px;
+        padding: 12px 30px;
+        background-color: #402f2c;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .3s ease-in;
+        &:hover{
+            background-color: transparent;
+            border: 1px solid #402f2c;
+            color: #402f2c;
+        }
+    }
+  }
+}
+@media (max-width:1581px){
+    .hero__wrapper{
+        .hero__image{
+            img{
+                width: 700px;
+                height: 600px;
+            }
+        }
+    }
+}
+@media (max-width:1400px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 48px ;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .hero__image{
+            img{
+                width: 650px;
+                height: 600px;
+            }
+        }
+    }
+}
+@media (max-width:1286px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 48px ;
+            }
+            p{
+                font-size: 18px;
+                padding: 0 12px;
+            }
+        }
+        .hero__image{
+            img{
+                width: 600px;
+                height: 600px;
+            }
+        }
+    }
+}
+@media (max-width:1197px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 48px ;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .hero__image{
+            img{
+                width: 540px;
+                height: 500px;
+            }
+        }
+    }
+}
+@media (max-width:1085px){
+    .hero__wrapper{
+        display: flex;
+        flex-direction: column;
+        .hero__content{
+            display: flex;
+            margin: 0 auto;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2{
+                font-size: 48px ;
+                text-align: center;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .hero__image{
+            margin: 0 auto;
+            width: 100%;
+            img{
+                width: 100%;
+                object-fit: contain;
+                height: 500px;
+                margin-top: 40px;
+                
+
+            }
+        }
+    }
+}
+@media (max-width:1085px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width:710px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 36px;
+                line-height: 54px;
+                margin-bottom: 50px;
+            }
+            p{
+                font-size: 16px;
+                text-align: center;
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width:470px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 32px;
+                line-height: 52px;
+            }
+            p{
+                font-size: 16px;
+                text-align: center;
+                line-height: 28px;
+            }
+        }
+    }
+}
+@media (max-width:415px){
+    .hero__wrapper{
+        .hero__content{
+            h2{
+                font-size: 32px;
+                line-height: 40px;
+            }
+            p{
+                font-size: 16px;
+                text-align: center;
+                line-height: 28px;
+            }
+            .input__btn{
+                input{
+                    width: 280px;
+                }
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+}

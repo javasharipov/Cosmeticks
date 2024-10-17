@@ -1,0 +1,5 @@
+@mixin df($jc: center){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
